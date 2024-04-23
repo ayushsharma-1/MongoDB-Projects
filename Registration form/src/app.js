@@ -1,4 +1,6 @@
-emitter.setMaxListeners(20);
+const tlsSocket = new TLSSocket(); // Replace TLSSocket with your actual TLSSocket instance
+tlsSocket.setMaxListeners(20); // Set the maximum number of listeners for the TLSSocket instance
+
 require('dotenv').config();
 const express = require('express');
 const bodyParser = require("body-parser");

@@ -1,4 +1,4 @@
-# Project Title
+# MongoDB
 Learning MongoDB with Node.js: Task Manager and Registration Form
 
 ## Description
